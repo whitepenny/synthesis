@@ -1,0 +1,143 @@
+.member-content__container {
+    padding: 14.0rem 1.0rem 4.0rem 1.0rem;
+}
+
+.member-content {
+    max-width: 80%;
+    margin: 0 auto;
+
+    h1 {
+        @mixin alpha;
+        font-family: $bodyFont;
+    }
+}
+
+.single-member-content  {
+    @media (min-width: 1000px) {
+        display: flex;    
+    }
+    
+}
+
+.single-member-image {
+    flex: 0 0 400px;
+    margin-bottom: 4.0rem;
+    order: 2;
+    @media (min-width: 1000px) {
+        margin-left: 150px;    
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.single-member-details {
+    padding: 1.6rem;
+    background: $brandColor;
+
+    a {
+        color: #fff;
+        display: inline-block;
+        margin-right: 1.0rem;
+    }
+}
+
+.member-overview-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+.member {
+    position: relative;
+    display: block;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.leadership {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    .member {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 50%;    
+        }
+    }
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    .member {
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: 50%;
+        }
+
+        @media (min-width: 1024px) {
+            width: 33%;    
+        }
+        
+    }
+}
+
+.member-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: color($mainColor alpha(.8));
+    color: #fff;
+    opacity: 0;
+    @mixin animation;
+
+    h2 {
+        @mixin bravo;
+        margin-bottom: 1.0rem;
+
+        @media (min-width: 1200px) {
+            font-size: 3.6rem;
+        }
+    }
+
+    h3 {
+        text-transform: uppercase;
+        @mixin delta;
+        letter-spacing: .2rem;
+        margin-bottom: 5.0rem;
+    }
+
+    &.active {
+        display: flex;
+        opacity: 1;
+    }
+}
+
+.team {
+    header {
+        padding: 4.0rem 0;
+        text-align: center;
+        @mixin delta;
+    }
+}
+
+.member-overview-content {
+    @mixin epsilon;
+}

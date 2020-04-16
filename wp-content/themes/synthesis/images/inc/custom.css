@@ -1,0 +1,86 @@
+.page-template-page-product .page-container {
+  padding: 0;
+}
+
+.blue-section {
+  background-color: #100036;
+  color: #fff;
+  padding: 40px 20px 60px;
+  position: relative;
+}
+
+.blue-section:after {
+  background-image: url('../images/triangle.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: -35px;
+  content: '';
+  height: 35px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 58px;
+}
+
+.blue-section__container {
+  display: flex;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  width: 400px;
+}
+.blue-section h3 {
+  position: absolute;
+  text-align: center;
+}
+.blue-section h3 span {
+  font-size: 16px;
+  display: block;
+  opacity: 0.7;
+}
+.blue-section h2 {
+  position: relative;
+  height: 196px;
+  width: 196px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 55px;
+  word-break: break-all;
+  font-size: 40px;
+  line-height: 1.2em;
+}
+.blue-section h2 .leftTopBorder,
+.blue-section h2 .rightTopBorder,
+.blue-section h2 .rightBottomBorder,
+.blue-section h2 .leftBottomBorder {
+  border-color: #fff;
+}
+h3.h3-top {
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+}
+h3.h3-left {
+  transform: rotate(-90deg);
+  left: 50px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+h3.h3-right {
+  transform: rotate(90deg);
+  right: 90px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+h3.h3-bottom {
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

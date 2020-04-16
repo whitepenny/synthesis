@@ -1,0 +1,127 @@
+.footer-bar {
+    width: 100%;
+    background: #000;
+    padding: 1.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+            color: $brandColor;    
+        }
+    }
+
+    &.sticky {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.page-container {
+    padding: .6rem;
+}
+.page-header {
+    
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 1200px) {
+        display: flex;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        
+
+        @media (min-width: 1200px) {
+            
+                width: auto;
+            
+        }
+    }
+}
+
+.page-header__content {
+    flex: 1;
+
+    div {
+        padding: 4.0rem;
+        
+        @media (min-width: 768px) {
+            padding: 8.0rem;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 80%;
+        }
+    }
+
+    h1 {
+        font-family: $bodyFont;
+        @mixin bravo;
+        @media (min-width: 768px) {
+            @mixin alpha;
+        }
+    }
+}
+
+.page-highlight {
+    position: relative;
+    background: #F7F7F7;
+    padding: 6%;
+    text-align: center;
+    
+
+    .page-highlight__container {
+        position: relative;
+        padding: 10%;
+    }
+
+    .leftTopBorder, .rightTopBorder, .rightBottomBorder, .leftBottomBorder  {
+        border-color: #ddd;
+    }
+
+    blockquote {
+        p {
+            @mixin bravo;
+
+            @media (min-width: 768px) {
+                font-size: 4.4rem;
+                line-height: 5.4rem;    
+            }
+        }
+
+        cite {
+            font-size: 2.0rem;
+            font-weight: bold;
+            display: block;
+            font-style: normal;
+        }
+    }
+
+    
+}
+
+.page-content__container {
+    padding: 6.0rem 1.0rem;
+}
+
+.page-content {
+    max-width: 80.0rem;
+    margin: 0 auto;
+    padding: 2.4rem;
+
+    h1 {
+        @mixin alpha;
+        font-family: $bodyFont;
+    }
+}
+
+.corporate-content {
+    padding-top: 10.0rem;
+}

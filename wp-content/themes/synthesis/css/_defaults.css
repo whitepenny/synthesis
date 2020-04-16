@@ -1,0 +1,171 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 0;
+    padding: 0;
+    font-family: $bodyFont;
+}
+
+
+
+@define-mixin unstyled-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@define-mixin horizontal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@define-mixin cover-background {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+@define-mixin offset-border {
+  &:before, &:after {
+    content: "";
+    display: block;
+    width: 80px;
+    border-top: 1px solid #ddd;
+    margin: 20px auto 20px auto;
+
+  }
+}
+
+@define-mixin animation {
+  transition: all 0.5s ease;
+}
+
+a, button {
+  @mixin animation;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin-left: 1.8rem;
+}
+
+ol {
+  padding: 0;
+  margin-left: 2.2rem;
+}  
+
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.center-block {
+  float: none;
+  margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+/*Headings*/
+
+@define-mixin alpha {
+    font-size: 4.6rem;
+    line-height: 6.0rem;
+}
+
+@define-mixin bravo {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+}
+
+@define-mixin charlie {
+    font-size: 2.0rem;
+    line-height: 3.4rem;
+}
+
+@define-mixin delta {
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+}
+
+@define-mixin epsilon {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+@define-mixin foxtrot {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+@define-mixin jumbo {
+    font-size: 10.0rem;
+    line-height: 11.0rem;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+  font-family: $headingFont;
+  font-weight: 300;
+}
+
+.entry-content {
+  h1 {
+    @mixin alpha;
+    font-weight: 100;
+  }
+
+  h2 {
+    @mixin bravo;
+    font-weight: 100;
+    margin-bottom: 1.0rem;
+  }
+
+  h3 {
+    @mixin charlie;
+    font-weight: 100;
+  }
+
+  h4 {
+    @mixin epsilon;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    @mixin delta;
+    margin: 0 0 2.0rem;
+  }
+
+  blockquote {
+    p {
+      color: $brandColor;
+    }
+  }
+}

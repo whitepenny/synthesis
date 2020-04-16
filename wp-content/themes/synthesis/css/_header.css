@@ -1,0 +1,63 @@
+.logo {
+    position: absolute;
+    top: 4.0rem;
+    left: 4.0rem;
+    z-index: 1000;
+    width: 6.0rem;
+    height: 6.0rem;
+
+    @media (min-width: 768px) {
+        width: 9.0rem;
+        height: 9.0rem;
+    }
+}
+
+.single-member, .page-template-page-teamoverview, .page-template-page-corporate, .error404 {
+    .logo {
+        svg {
+            fill: #000;
+        }
+    }
+}
+
+
+.nav-trigger {
+    width: 6.0rem;
+    height: 6.0rem;
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+    background: #000;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    @mixin animation;
+    cursor: pointer;
+
+    .fa-lg {
+        display: block;
+    }
+
+    .fa-2x {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        width: 9.0rem;
+        height: 9.0rem;
+    
+        .fa-lg {
+            display: none;
+        }
+
+        .fa-2x {
+            display: block;
+        }
+
+
+    }
+
+
+}
