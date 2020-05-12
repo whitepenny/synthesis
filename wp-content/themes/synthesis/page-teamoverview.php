@@ -89,9 +89,6 @@
 
         <div class="team">
             
-            <header>
-            <h1>Psychologists & Coaches</h1>
-            </header>
 
             <div class="team-grid">
                 
