@@ -1,7 +1,7 @@
 <?php
 
-update_option( 'siteurl', 'http://guydev.tempurl.co.il/agilesynthesis/' );
-update_option( 'home', 'http://guydev.tempurl.co.il/agilesynthesis/' );
+update_option( 'siteurl', 'https://truesynthesis.wpengine.com' );
+update_option( 'home', 'https://truesynthesis.wpengine.com' );
 
 function sr_scripts_and_styles() {
 
