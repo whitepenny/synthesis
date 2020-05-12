@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6, p {
   margin: 0 0 2.0rem;
 }
 .entry-content blockquote p {
-  color: #21A2D3;
+  color: #e3b689;
 }
 .loader,
 .loader:after {
@@ -262,7 +262,7 @@ h1,h2,h3,h4,h5,h6, p {
   text-align: center;
   display: inline-block;
   width: 60px;
-  border-bottom: 3px solid #21A2D3;
+  border-bottom: 3px solid #e3b689;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5,h6, p {
   text-decoration: none;
 }
 .nav-container__content a:hover {
-  color: #21A2D3;
+  color: #e3b689;
 }
 .nav-container__content ul.utility-nav {
   font-size: 1.2rem;
@@ -287,7 +287,7 @@ h1,h2,h3,h4,h5,h6, p {
     position: absolute;
     width: 60px;
     height: 60px;
-    border: 3px solid #21A2D3;
+    border: 3px solid #e3b689;
 }
 .leftTopBorder {
     border-width: 3px 0 0 3px;
@@ -603,9 +603,7 @@ input[type='radio'] {
   border: 0;
   font-size: 1.4rem;
   padding:  1.1rem 1.4rem;
-  background-color: #45CFEB ;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#45CFEB), to(#21A2D3));
-  background-image: linear-gradient(-180deg, #45CFEB 0%, #21A2D3 100%);
+  background-color: #e3b689;
   color: #fff;
   text-transform: uppercase;
   height: 100%;
@@ -614,7 +612,7 @@ input[type='radio'] {
   transition: all 2s;
 }
 .apply-form button:hover {
-  background: #21A2D3;
+  background: #AF8C6A;
 }
 .wpforms-field-hp {
     display: none !important;
@@ -911,7 +909,7 @@ input[type='radio'] {
   text-decoration: none;
 }
 .footer-bar a:hover {
-  color: #21A2D3;
+  color: #e3b689;
 }
 .footer-bar.sticky {
   position: absolute;
@@ -1063,7 +1061,7 @@ input[type='radio'] {
 }
 .single-member-details {
     padding: 1.6rem;
-    background: #21A2D3;
+    background: #e3b689;
 }
 .single-member-details a {
   color: #fff;

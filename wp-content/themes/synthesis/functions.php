@@ -1,7 +1,5 @@
 <?php
 
-update_option( 'siteurl', 'https://truesynthesis.wpengine.com' );
-update_option( 'home', 'https://truesynthesis.wpengine.com' );
 
 function sr_scripts_and_styles() {
 
