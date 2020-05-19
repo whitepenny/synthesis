@@ -1,7 +1,7 @@
 
 <?php if(! is_front_page()): ?>
     <div class="footer-bar">
-        <p>Copyright &copy; <?php echo the_time('Y'); ?>  Synthesis. All rights reserved <br/><a href="mailto:info@yoursynthesis.com">info@yoursynthesis.com</a></p>
+        <p>Copyright &copy; <?php echo date('Y'); ?>  Synthesis. All rights reserved <br/><a href="mailto:info@yoursynthesis.com">info@yoursynthesis.com</a></p>
     </div>
 <?php endif; ?>
 
