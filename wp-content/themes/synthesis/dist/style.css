@@ -10,7 +10,7 @@ body {
     line-height: 2.8rem;
     margin: 0;
     padding: 0;
-    font-family: "foco", 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a, button {
   -webkit-transition: all 0.5s ease;
@@ -45,7 +45,7 @@ blockquote {
 }
 /*Headings*/
 h1,h2,h3,h4,h5,h6, p {
-  font-family: "foco", 'Montserrat', sans-serif;"
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 .entry-content h1 {
@@ -965,7 +965,7 @@ input[type='radio'] {
   }
 }
 .page-header__content h1 {
-  font-family: "foco", 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 2.8rem;
   line-height: 3.8rem;
 }
@@ -996,8 +996,8 @@ input[type='radio'] {
 }
 @media (min-width: 768px) {
   .page-highlight blockquote p {
-    font-size: 5rem;
-    line-height: 5.4rem;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
   }
 }
 .page-highlight blockquote cite {
@@ -1017,7 +1017,7 @@ input[type='radio'] {
 .page-content h1 {
   font-size: 4.6rem;
   line-height: 6.0rem;
-  font-family: "foco", 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .corporate-content {
     padding-top: 10.0rem;
@@ -1032,7 +1032,7 @@ input[type='radio'] {
 .member-content h1 {
   font-size: 4.6rem;
   line-height: 6.0rem;
-  font-family: "foco", 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media (min-width: 1000px) {
   .single-member-content  {
