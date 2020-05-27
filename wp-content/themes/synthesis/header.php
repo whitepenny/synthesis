@@ -43,8 +43,7 @@
             </ul>
 
             <ul>
-                <li><a href="mailto:info@agilesynthesis.com">info@agilesynthesis.com</a></li>
-                <li><a href="tel:6464340319">646.434.0319</a></li>
+                <li><a href="mailto:info@yoursynthesis.com">info@yoursynthesis.com</a></li>
             </ul>
 
             <ul class="utility-nav">
