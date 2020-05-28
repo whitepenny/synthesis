@@ -16,6 +16,10 @@ a, button {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
+
+a {
+  color: #e3b689;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -1018,6 +1022,10 @@ input[type='radio'] {
   font-size: 4.6rem;
   line-height: 6.0rem;
   font-family: 'Poppins', sans-serif;
+}
+
+.page-content a {
+
 }
 .corporate-content {
     padding-top: 10.0rem;
