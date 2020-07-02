@@ -7,7 +7,9 @@
     <div class="page-container">
 
         <div class="page-header">
+            <div>
             <img src="<?php echo $thumb['0']; ?>" alt="" />
+            </div>
 
             <div class="page-header__content">
                 <div>
